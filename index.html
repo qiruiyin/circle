@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>车圈</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<!-- Link Swiper's CSS -->
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<!-- Swiper -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<nav class="nav">
+					<div class="container">
+						<a href="index.html" class="logo">车圈</a>
+						<div class="subnav">
+							<ul>
+								<li><a href="javascript:">论坛</a></li>
+								<li><a href="javascript:">下载</a></li>
+								<li><a href="javascript:">关于我们</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<section class="title">
+					<img src="images/slogan.png" alt="">
+					<h4>圈出最志同道合的伙伴   圈出时下最IN自驾路线   圈出最安心的自驾旅程</h4>
+				</section>
+			</div>
+			<div class="swiper-slide">Slide 2</div>
+			<div class="swiper-slide">Slide 3</div>
+		</div>
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+	</div>
+
+	<!-- Swiper JS -->
+	<script src="js/swiper.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			pagination: '.swiper-pagination',
+			direction: 'vertical',
+			slidesPerView: 1,
+			paginationClickable: true,
+			spaceBetween: 30,
+			mousewheelControl: true
+		});
+	</script>
+</body>
+</html>
